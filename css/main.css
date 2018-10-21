@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'CharmonmanRegular';
+    src: url('../fonts/Charmonman-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Abel';
+    src: url('../fonts/Abel-Regular.ttf') format('truetype');
+}
+header{
+    position: fixed;
+}
+.navbar-brand{
+    font-family: 'CharmonmanRegular';
+}
+.nav-link{
+    font-family: 'Abel';
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .px-xs-1{
+        padding-left: .25rem!important;
+        padding-right: .25rem!important;
+    }
+ }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .px-sm-2{
+        padding-left: .5rem!important;
+        padding-right: .5rem!important;
+    }
+ }
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .px-md-3{
+        padding-left: 1rem!important;
+        padding-right: 1rem!important;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .px-lg-4{
+        padding-left: 1.5rem!important;
+        padding-right: 1.5rem!important;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .px-xl-5{
+        padding-left: 3rem!important;
+        padding-right: 3rem!important;
+    }
+ }
