@@ -27,6 +27,9 @@ h2 {
     font-size: 2rem;
     font-family: 'Abel'!important;
 }
+h3 {
+    font-family: 'Abel'!important;
+}
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .px-xs-1{
