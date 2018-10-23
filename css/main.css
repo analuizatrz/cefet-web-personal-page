@@ -11,6 +11,8 @@ header{
     display: block;
 }
 .navbar-brand{
+    font-size: 1.6rem!important;
+
     font-family: 'CharmonmanRegular';
 }
 .nav-link{
@@ -24,10 +26,11 @@ header{
     margin: 0 auto;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 1.4rem!important;
     font-family: 'Abel'!important;
 }
 h3 {
+    font-size: 1.2rem!important;
     font-family: 'Abel'!important;
 }
 /* Extra small devices (portrait phones, less than 576px) */
