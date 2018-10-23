@@ -7,13 +7,25 @@
     src: url('../fonts/Abel-Regular.ttf') format('truetype');
 }
 header{
-    position: fixed;
+    /* position: fixed; */
+    display: block;
 }
 .navbar-brand{
     font-family: 'CharmonmanRegular';
 }
 .nav-link{
     font-family: 'Abel';
+}
+.section{
+    /* border: 1px solid cadetblue; */
+    display: block;
+}
+.img-responsive {
+    margin: 0 auto;
+}
+h2 {
+    font-size: 2rem;
+    font-family: 'Abel'!important;
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -45,7 +57,7 @@ header{
     }
  }
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* Extra large devices (large desktops, 1200px ands up) */
 @media (min-width: 1200px) { 
     .px-xl-5{
         padding-left: 3rem!important;
