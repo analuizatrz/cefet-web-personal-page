@@ -33,6 +33,10 @@ h3 {
     font-size: 1.2rem!important;
     font-family: 'Abel'!important;
 }
+.fa {
+    font-size: 2rem!important;
+    margin: 12px;
+}
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .px-xs-1{
